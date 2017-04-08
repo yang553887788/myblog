@@ -14,6 +14,7 @@ class Admin extends CI_Controller {
 	//后台主页
 	public function index()
 	{
+		
 		$this->load->vars('resource',base_url('resource/'));
 		$this->load->view('admin/common/header');
 		$this->load->view('admin/index');
