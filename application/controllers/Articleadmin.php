@@ -21,9 +21,17 @@ class Articleadmin extends CI_Controller {
 
 
 	//文章管理
-	
+	public function detail()
+	{
+		$this->load->view('');
+	}
 
 	//文章评论
+
+	public function contents()
+	{
+		$this->load->view('');
+	}
 
 	
 }
