@@ -14,8 +14,8 @@ class Hom extends CI_Model
 	}
 
 	public function homlist(){
-		$sql = 'SELECT*FROM my_category';
-		$res = $this->db->query($sql);
+
+		$res = $this->db->get('my_category');
 		$array = array();
 		if ($res->num_rows() > 0) {
 			foreach ($res->result_array() as $row) {
@@ -31,8 +31,8 @@ class Hom extends CI_Model
 
 	public function artlist()
 	{
-		$sql = 'SELECT * FROM my_content';
-		$res = $this->db->query($sql);
+
+		$res = $this->db->get('my_content');
 		$array = array();
 		if ($res->num_rows() > 0) {
 			foreach ($res->result_array() as $row) {
