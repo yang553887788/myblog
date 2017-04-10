@@ -1,32 +1,5 @@
         <div class="templatemo-content-container">
-          <div class="templatemo-flex-row flex-content-row">
-            <div class="templatemo-content-widget white-bg col-2">
-              <i class="fa fa-times"></i>
-              <div class="square"></div>
-              <h2 class="templatemo-inline-block">Visual Admin Template</h2><hr>searchttp://www.cssmoban.com/tag/admin" target="_parent">free responsive admin template</a> for everyone. Feel free to use this template for your backend user interfaces. Please tell your friends about <a href="http://www.templatemo.com" target="_parent">templatemo.com</a> website. You may <a href="http://www.cssmoban.com/contact" target="_parent">contact us</a> if you have anything to say.</p>
-              <p>Nunc placerat purus eu tincidunt consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus nulla quis risus auctor, non placerat augue consectetur. Fusce mi lacus, semper sit amet mattis eu.</p>              
-            </div>
-            <div class="templatemo-content-widget white-bg col-1 text-center">
-              <i class="fa fa-times"></i>
-              <h2 class="text-uppercase">Maris</h2>
-              <h3 class="text-uppercase margin-bottom-10">Design Project</h3>
-              <img src="<?php echo $resource; ?>images/bicycle.jpg" alt="Bicycle" class="img-circle img-thumbnail">
-            </div>
-            <div class="templatemo-content-widget white-bg col-1">
-              <i class="fa fa-times"></i>
-              <h2 class="text-uppercase">Dictum</h2>
-              <h3 class="text-uppercase">Sedvel Erat Non</h3><hr>
-              <div class="progress">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-              </div>                          
-            </div>
-          </div>
+    
           <div class="templatemo-flex-row flex-content-row">
             <div class="col-1">              
               <div class="templatemo-content-widget orange-bg">
@@ -111,25 +84,151 @@
           </div> <!-- Second row ends -->
           <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >手机网站模板</a></div>
           <div class="templatemo-flex-row flex-content-row templatemo-overflow-hidden"> <!-- overflow hidden for iPad mini landscape view-->
-            <div class="col-1 templatemo-overflow-hidden">
-              <div class="templatemo-content-widget white-bg templatemo-overflow-hidden">
-                <i class="fa fa-times"></i>
-                <div class="templatemo-flex-row flex-content-row">
-                  <div class="col-1 col-lg-6 col-md-12">
-                    <h2 class="text-center">Modular<span class="badge">new</span></h2>
-                    <div id="pie_chart_div" class="templatemo-chart"></div> <!-- Pie chart div -->
-                  </div>
-                  <div class="col-1 col-lg-6 col-md-12">
-                    <h2 class="text-center">Interactive<span class="badge">new</span></h2>
-                    <div id="bar_chart_div" class="templatemo-chart"></div> <!-- Bar chart div -->
-                  </div>  
-                </div>                
+
+   <div class="panel panel-default table-responsive">
+              <table class="table table-striped table-bordered templatemo-user-table">
+                <thead>
+                  <tr>
+                    <td><a href="" class="white-text templatemo-sort-by"># <span class="caret"></span></a></td>
+                    <td><a href="" class="white-text templatemo-sort-by">First Name <span class="caret"></span></a></td>
+                    <td><a href="" class="white-text templatemo-sort-by">Last Name <span class="caret"></span></a></td>
+                    <td><a href="" class="white-text templatemo-sort-by">User Name <span class="caret"></span></a></td>
+                    <td><a href="" class="white-text templatemo-sort-by">Email <span class="caret"></span></a></td>
+                    <td>Edit</td>
+          
+                    <td>Delete</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1.</td>
+                    <td>John</td>
+                    <td>Smith</td>
+                    <td>@jS</td>
+                    <td>js@company.com</td>
+                    <td><a href="" class="templatemo-edit-btn">Edit</a></td>
+        
+                    <td><a href="" class="templatemo-link">Delete</a></td>
+                  </tr>
+                  <tr>
+                    <td>2.</td>
+                    <td>Bill</td>
+                    <td>Jones</td>
+                    <td>@bJ</td>
+                    <td>bj@company.com</td>
+                    <td><a href="" class="templatemo-edit-btn">Edit</a></td>
+     
+                    <td><a href="" class="templatemo-link">Delete</a></td>
+                  </tr>
+                  <tr>
+                    <td>3.</td>
+                    <td>Mary</td>
+                    <td>James</td>
+                    <td>@mJ</td>
+                    <td>mj@company.com</td>
+                    <td><a href="" class="templatemo-edit-btn">Edit</a></td>
+                
+                    <td><a href="" class="templatemo-link">Delete</a></td>
+                  </tr>
+                  <tr>
+                    <td>4.</td>
+                    <td>Steve</td>
+                    <td>Bride</td>
+                    <td>@sB</td>
+                    <td>sb@company.com</td>
+                    <td><a href="" class="templatemo-edit-btn">Edit</a></td>
+              
+                    <td><a href="" class="templatemo-link">Delete</a></td>
+                  </tr>
+                  <tr>
+                    <td>5.</td>
+                    <td>Paul</td>
+                    <td>Richard</td>
+                    <td>@pR</td>
+                    <td>pr@company.com</td>
+                    <td><a href="" class="templatemo-edit-btn">Edit</a></td>
+              
+                    <td><a href="" class="templatemo-link">Delete</a></td>
+                  </tr>  
+                   <tr>
+                    <td>6.</td>
+                    <td>Will</td>
+                    <td>Brad</td>
+                    <td>@wb</td>
+                    <td>wb@company.com</td>
+                    <td><a href="" class="templatemo-edit-btn">Edit</a></td>
+                
+                    <td><a href="" class="templatemo-link">Delete</a></td>
+                  </tr>  
+                   <tr>
+                    <td>7.</td>
+                    <td>Steven</td>
+                    <td>Eric</td>
+                    <td>@sE</td>
+                    <td>se@company.com</td>
+                    <td><a href="" class="templatemo-edit-btn">Edit</a></td>
+              
+                    <td><a href="" class="templatemo-link">Delete</a></td>
+                  </tr>  
+                   <tr>
+                    <td>8.</td>
+                    <td>Landi</td>
+                    <td>Susan</td>
+                    <td>@lS</td>
+                    <td>ls@company.com</td>
+                    <td><a href="" class="templatemo-edit-btn">Edit</a></td>
+                  
+                    <td><a href="" class="templatemo-link">Delete</a></td>
+                  </tr>                    
+                </tbody>
+              </table>    
+            </div> 
+  <div class="templatemo-content-widget white-bg col-2">
+              <i class="fa fa-times"></i>
+              <div class="media margin-bottom-30">
+                <div class="media-left padding-right-25">
+                  <a href="#">
+                    <img class="media-object img-circle templatemo-img-bordered" src="<?php echo $resource;?>
+                    images/person.jpg" alt="Sunset">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h2 class="media-heading text-uppercase blue-text">John Barnet</h2>
+                  <p>Project Manager</p>
+                </div>        
               </div>
+              <div class="table-responsive">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td><div class="circle green-bg"></div></td>
+                      <td>New Task Issued</td>
+                      <td>02</td>                    
+                    </tr> 
+                    <tr>
+                      <td><div class="circle pink-bg"></div></td>
+                      <td>Task Pending</td>
+                      <td>22</td>                    
+                    </tr>  
+                    <tr>
+                      <td><div class="circle blue-bg"></div></td>
+                      <td>Inbox</td>
+                      <td>13</td>                    
+                    </tr>  
+                    <tr>
+                      <td><div class="circle yellow-bg"></div></td>
+                      <td>New Notification</td>
+                      <td>18</td>                    
+                    </tr>                                      
+                  </tbody>
+                </table>
+              </div>             
             </div>
+
           </div>
           <footer class="text-right">
             <p>Copyright &copy; 2084 Company Name 
-            | More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+            | More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家"></a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank"></a></p>
           </footer>         
         </div>
       </div>
