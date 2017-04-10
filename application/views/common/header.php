@@ -48,27 +48,27 @@
 			  <a class="toggleMenu" href="#">菜单</a>
 			  <ul class="menu">
 				  <li><a href="<?php echo site_url('home/index')?>">首页</a></li>
-				  <li><a href="<?php echo site_url('content/index')?>">框架学习</a></li>
-				  <li><a href="<?php echo site_url('content/index')?>">微信开发</a></li>				  
+				  <li><a href="<?php echo site_url('content/index/1')?>">框架学习</a></li>
+				  <li><a href="<?php echo site_url('content/index/2')?>">微信开发</a></li>				  
 				   <li>
-					  <a href="<?php echo site_url('content/index')?>" class="parent">数据缓存</a>
+					  <a href="<?php echo site_url('content/index/3')?>" class="parent">数据缓存</a>
 					  <ul>
-						  <li><a href="<?php echo site_url('content/index')?>">mysql</a></li>
+						  <li><a href="<?php echo site_url('content/index/9')?>">mysql</a></li>
 
-						  <li><a href="<?php echo site_url('content/index')?>">memcache</a></li>
-						  <li><a href="<?php echo site_url('content/index')?>">mongdb</a></li>
+						  <li><a href="<?php echo site_url('content/index/10')?>">memcache</a></li>
+						  <li><a href="<?php echo site_url('content/index/11')?>">mongdb</a></li>
 
-						  <li><a href="<?php echo site_url('content/index')?>">redis</a></li>
+						  <li><a href="<?php echo site_url('content/index/12')?>">redis</a></li>
 					  </ul>
 				  </li>
 
-				  <li><a href="<?php echo site_url('content/index')?>">linux操作</a></li>
-				  <li><a href="<?php echo site_url('content/index')?>">php</a></li>
-                 <li><a href="<?php echo site_url('content/index')?>">nginx探究</a></li>
-				  <li><a href="<?php echo site_url('content/index')?>">javascript</a></li>
+				  <li><a href="<?php echo site_url('content/index/4')?>">linux操作</a></li>
+				  <li><a href="<?php echo site_url('content/index/5')?>">php</a></li>
+                 <li><a href="<?php echo site_url('content/index/8')?>">nginx探究</a></li>
+				  <li><a href="<?php echo site_url('content/index/6')?>">javascript</a></li>
 
 
-				  <li><a href="<?php echo site_url('content/index')?>">html</a></li>
+				  <li><a href="<?php echo site_url('content/index/7')?>">html</a></li>
 				  <li><a href="<?php echo site_url('content/index')?>">关于我们</a></li>
 			  </ul>
 			</nav>
