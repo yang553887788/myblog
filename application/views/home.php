@@ -1,4 +1,4 @@
-<div class="copyrights">Collect from <a href="#" >企业网站模板</a></div>
+<div class="copyrights">Collect from <a href="#" >个人博客网站</a></div>
 <!--Content-->
 <section class="container">
 	<div class="zerogrid">

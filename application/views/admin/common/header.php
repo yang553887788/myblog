@@ -46,13 +46,13 @@
         <nav class="templatemo-left-nav">          
           <ul>
             <li><a href="<?php echo site_url('admin/index');?>" class="active"><i class="fa fa-home fa-fw"></i>网站信息</a></li>
-             <li><a href="<?php echo site_url('map/datas');?>"><i class="fa fa-map-marker fa-fw"></i>分类管理</a></li>
-            <li><a href="<?php echo site_url('map/datas');?>"><i class="fa fa-bar-chart fa-fw"></i>文章管理</a></li>
-            <li><a href="<?php echo site_url('map/datas');?>"><i class="fa fa-database fa-fw"></i>评论管理</a></li>
+             <li><a href="<?php echo site_url('adtype/index');?>"><i class="fa fa-map-marker fa-fw"></i>分类管理</a></li>
+            <li><a href="<?php echo site_url('adart/index');?>"><i class="fa fa-bar-chart fa-fw"></i>文章管理</a></li>
+            <li><a href="<?php echo site_url('adart/pl');?>"><i class="fa fa-database fa-fw"></i>评论管理</a></li>
            
             <li><a href="<?php echo site_url('useradmin/index');?>"><i class="fa fa-users fa-fw"></i>用户管理</a></li>
           
-            <li><a href="<?php echo site_url('map/datas');?>"><i class="fa fa-eject fa-fw"></i>登出后台</a></li>
+            <li><a href="<?php echo site_url('Adlogin/logout');?>"><i class="fa fa-eject fa-fw"></i>登出后台</a></li>
           </ul>  
         </nav>
       </div>
